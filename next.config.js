@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   pageExtensions: ['page.ts', 'page.tsx'],
-  basePath: '/next-js/out',
-  assetPrefix: '/next-js/out/'
+  basePath: '/_next-js/out',
+  assetPrefix: '/_next-js/out/'
 }
