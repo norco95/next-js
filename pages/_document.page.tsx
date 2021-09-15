@@ -2,7 +2,7 @@ import * as React from 'react';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 
-export default class MemberPortalDocument extends Document {
+export default class TestNextDocument extends Document {
     render() {
         return (
             <Html>
@@ -22,7 +22,7 @@ export default class MemberPortalDocument extends Document {
     }
 }
 
-MemberPortalDocument.getInitialProps = async (ctx) => {
+TestNextDocument.getInitialProps = async (ctx) => {
     // Render app and page and get the context of the page with collected side effects.
     const sheets = new ServerStyleSheets();
     const originalRenderPage = ctx.renderPage;

@@ -10,7 +10,7 @@ exports.modules = {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ MemberPortalDocument)
+/* harmony export */   "default": () => (/* binding */ TestNextDocument)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(297);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -30,7 +30,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-class MemberPortalDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__.default {
+class TestNextDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__.default {
   render() {
     return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
       children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("body", {
@@ -44,7 +44,7 @@ class MemberPortalDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__.de
 
 }
 
-MemberPortalDocument.getInitialProps = async ctx => {
+TestNextDocument.getInitialProps = async ctx => {
   // Render app and page and get the context of the page with collected side effects.
   const sheets = new _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__.ServerStyleSheets();
   const originalRenderPage = ctx.renderPage;

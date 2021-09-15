@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build && next export && npm run build-static-repair-index",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-static-repair-index": "replace-in-files --string \\\"/_next/static\\\" --replacement \\\"./_next/static\\\" index.html"
   },
   "dependencies": {
     "next": "11.1.2",
